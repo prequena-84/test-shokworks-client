@@ -1,0 +1,20 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 3.670625rem 15.364375rem 3.755625rem 3.763125rem;
+}
+
+.navbarUl{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 2.625rem;
+    margin-left: 10.10375rem;
+    margin-right: 2.625rem;
+}
+
+.navbarSearch {
+    margin-right: 2.625rem;
+}

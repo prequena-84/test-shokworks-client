@@ -1,0 +1,38 @@
+[
+    {
+        "menu": "Home",
+        "submenu": [],
+        "isActive": true,
+        "link": "/"
+    },
+        {
+        "menu": "About",
+        "submenu": [],
+        "isActive": false,
+        "link": "/"
+    },
+        {
+        "menu": "Portfolio",
+        "submenu": [],
+        "isActive": false,
+        "link": "/"
+    },
+        {
+        "menu": "Product",
+        "submenu": [],
+        "isActive": false,
+        "link": "/"
+    },
+        {
+        "menu": "Career",
+        "submenu": [],
+        "isActive": false,
+        "link": "/"
+    },
+        {
+        "menu": "Blog",
+        "submenu": [],
+        "isActive": false,
+        "link": "/"
+    }
+]

@@ -1,0 +1,22 @@
+.li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    font-family: var(--font-Poppins);
+    font-size: var(--font-17px);
+    font-weight: var(--font-regular);
+    margin-bottom: .625rem;
+    font-weight: bold;
+}
+
+.isActive {
+    color: var( --font-elipse-active );
+}
+
+.notActive {
+    color:var( --font-elipse-not-active );
+}

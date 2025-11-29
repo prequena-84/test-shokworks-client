@@ -23,8 +23,15 @@
     /*Color letra Input*/
     --font-input: #CCCCCC;
 
+    /*Color letra elipse-nav*/
+    --font-elipse-active: #185F7F;
+    --font-elipse-not-active: #555555;
+
     /*Color border Search*/
     --border-search: #C6BAF8;
+
+    /*Color Elipse NavBar*/
+    --bg-elipse-nav: #185F7F 0% 0% no-repeat padding-box;
 
     /*Recuerda quitar esta es una prueba de medicion de tamaño superior a 1921px*/
     --bg-sup-1921: yellow;
