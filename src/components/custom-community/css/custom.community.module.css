@@ -21,4 +21,5 @@
     font-weight: 600;
     color:       var( --font-community );
     line-height: 1.2;
+    white-space: pre-line;
 }

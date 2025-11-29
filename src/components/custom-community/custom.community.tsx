@@ -6,7 +6,7 @@ import Styles from "@/components/custom-community/css/custom.community.module.cs
 
 import type { ICustomCommunity } from "@/components/custom-community/interfaces/custom.community.interfaces";
 
-const CustomCommunity: React.FC<ICustomCommunity> = ({ text1, text2 }) => {
+const CustomCommunity: React.FC<ICustomCommunity> = ({ title }) => {
     return (
         <>
             <article className={Styles.community}>
@@ -18,8 +18,7 @@ const CustomCommunity: React.FC<ICustomCommunity> = ({ text1, text2 }) => {
                         height={450}
                     />
                 </div>
-                <label className={Styles.title}>{text1}</label>
-                <label className={Styles.title}>{text2}</label>
+                <h2 className={Styles.title}>{title}</h2>
             </article>
             <div className={Styles.btns}>
                 <div>
