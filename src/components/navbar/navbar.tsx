@@ -1,13 +1,12 @@
 'use client';
 
 import React, { useState, useEffect } from "react";
-import { INavbar } from "@/components/navbar/interfaces/navbar.interfaces";
 import CustomLiNavBar from "@/components/custom-li/custom.li";
 import ButtonLine from "@/components/ui/botton/botton-line";
 import Search from "@/components/ui/search/search";
 import CustomImage from "@/components/custom-image/custom.image";
-
 import styles from "@/components/navbar/css/navbar.module.css";
+import type { INavbar } from "@/components/navbar/interfaces/navbar.interfaces";
 
 const Navbar: React.FC = () => {
     const [menu, setMenu] = useState<INavbar[]>([]);
@@ -34,20 +33,20 @@ const Navbar: React.FC = () => {
         });
     };
 
-    const handlerSearch = ( event: React.ChangeEvent<HTMLInputElement> ) => {
+    const handlerSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
         const { value } = event.target;
         setSearch(value);
     };
 
     return (
         <nav className={styles.navbar}>
-            <div>
+            <div className={styles.navbarLogo}>
                 <CustomImage
-                    src="/navbar/Group 2487.svg"
+                    src="/navbar/logo.svg"
                     alt="logo"
-                    width={331}
+                    width={334}
                     height={28}
-
+                    priority
                 />
             </div>
             <ul className={styles.navbarUl}>
@@ -70,10 +69,9 @@ const Navbar: React.FC = () => {
             <div>
                 <ButtonLine
                     text="Contact Us"
-                    onClick={() => {}}
+                    onClick={() => { }}
                 />
             </div>
-
         </nav>
     );
 };

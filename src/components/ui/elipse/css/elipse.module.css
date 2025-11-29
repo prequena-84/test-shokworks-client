@@ -1,8 +1,8 @@
 .elipse {
-    display: inline-block;
-    width: .625rem;
-    height:.5625rem;
-    background: var( --bg-elipse-nav );
+    display:       inline-block;
+    width:         .625rem;
+    height:        .5625rem;
+    background:    var( --bg-elipse-nav );
     border-radius: 50%;
-    opacity: 1;
+    opacity:       1;
 }
