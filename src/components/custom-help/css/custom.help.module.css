@@ -1,0 +1,39 @@
+.help {
+    display:         flex;
+    flex-direction:  row;
+    justify-content: space-around;
+    align-items:     center;
+    gap:             10.25rem;
+    margin-top:      7.25rem;
+    margin-right:    17.8125rem;
+}
+
+.containerImage {
+    margin-left: 17.8125rem;
+}
+
+.article {
+    display:        flex;
+    flex-direction: column;
+    align-items:    flex-start;
+}
+
+.h2 {
+    font-family: var(--font-Montserrat);
+    font-size:   var(--font-43px);
+    font-weight: var(--font-regular);
+    font-weight: none;
+    color:       var( --font-work-h2 );
+    white-space: pre-wrap;
+    opacity:     1;
+}
+
+.p {
+    margin-top: .5rem;
+    font-family: var( --font-Poppins );
+    font-size:   var( --font-15px );
+    font-weight: var( --font-regular );
+    color:       var( --font-work-p );
+    white-space: pre-wrap;
+    opacity:     1;
+}
