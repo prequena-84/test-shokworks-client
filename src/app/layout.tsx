@@ -13,7 +13,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <div className="wrapper">
-            {children}
+          {children}
         </div>
       </body>
     </html>

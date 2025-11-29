@@ -33,6 +33,9 @@
     /*Color Elipse NavBar*/
     --bg-elipse-nav: #185F7F 0% 0% no-repeat padding-box;
 
+    /*Color Texto Section Community*/
+    --font-community: #333333;
+
     /*Recuerda quitar esta es una prueba de medicion de tamaño superior a 1921px*/
     --bg-sup-1921: yellow;
 }
@@ -45,7 +48,7 @@
     .wrapper {
         width:            100%;
         margin:           0 auto;
-        padding:          0 1rem;
+        padding:          0;
         background-color: var(--bg-sup-1441);
     }
 }
@@ -53,7 +56,7 @@
 @media(min-width: 1921px) {
     .wrapper {
         max-width:        1920px;
-        margin:           0 auto;
+        margin:           0;
         background-color: var(--bg-sup-1921);
     }
 }

@@ -14,11 +14,11 @@
     display:         flex;
     justify-content: center;
     align-items:     start;
-    gap:             .625rem;
+    gap:             2.625rem;
     margin-left:     10.10375rem;
-    margin-right:    2.625rem;
 }
 
 .navbarSearch {
-    margin-right: 2.625rem;
+    margin-left : 2.625rem;
+    margin-right: 3.125rem;
 }

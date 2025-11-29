@@ -1,20 +1,22 @@
-//import styles from "./page.module.css";
-import Navbar from "../components/navbar/navbar";
+import Navbar from "@/components/navbar/navbar";
+import CustomCommunity from "@/components/custom-community/custom.community";
 
-//import CustomLiNavBar from "../components/custom-li/custom.li";
+import styles from "@/app/css/page.module.css";
 
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <h1>Home</h1>
-
-    {/*<ul>
-      <CustomLiNavBar 
-        menu="Home"
-        isActive={true}
-      />
-    </ul>*/}
+      <header>
+        <Navbar/>
+      </header>
+      <main>
+        <section className={styles.community}>
+          <CustomCommunity 
+            text1="A Brand New Way"
+            text2="To See The World"
+          />
+        </section>
+      </main>
     </>
   );
 };
