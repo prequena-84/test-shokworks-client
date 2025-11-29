@@ -1,0 +1,11 @@
+.input {
+    width: 75%;
+    font-family: var(--font-Poppins);
+    font-size: var(--font-14px);
+    font-weight: var(--font-medium);
+    color: var(--font-input);
+    border: 1px solid transparent;
+    text-transform: capitalize;
+    letter-spacing: 0px;
+    opacity: 1;
+}

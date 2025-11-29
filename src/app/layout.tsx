@@ -1,6 +1,7 @@
-import "./css/page.module.css";
-import { configApp } from "@/app/config/config.app";
+import "@/app/css/page.module.css";
+import "@/styles/theme.css";
 
+import { configApp } from "@/app/config/config.app";
 export const metadata = configApp;
 
 export default function RootLayout({
@@ -10,8 +11,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={""}>
-        {children}
+      <body>
+        <div className="wrapper">
+            {children}
+        </div>
       </body>
     </html>
   );

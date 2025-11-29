@@ -1,0 +1,52 @@
+:root {
+    /*Color de fondos App*/
+    --bg-app: #FFFFFF;
+
+    /*Color de botones*/
+    --bg-btn-line: transparent linear-gradient(248deg, #1B92C8 0%, #2C3636 100%) 0% 0% no-repeat padding-box;
+    --bg-btn-outline: #FFFFFF;
+
+    /*Color border outline botones*/
+    --border-btn-outline: #185F7F;
+
+    /*Letras */
+    --font-Poppins: "Poppins", sans-serif;
+    --font-17px: 1.0625rem;
+    --font-14px: 0.875rem;
+    --font-medium: 500;
+    --font-regular: 400;
+
+    /*Color de Letras botones*/
+    --font-btn-line: #FFFFFF;
+    --font-btn-outline: #185F7F;
+
+    /*Color letra Input*/
+    --font-input: #CCCCCC;
+
+    /*Color border Search*/
+    --border-search: #C6BAF8;
+
+    /*Recuerda quitar esta es una prueba de medicion de tamaño superior a 1921px*/
+    --bg-sup-1921: yellow;
+}
+
+@media(min-width: 1441px) {
+    body {
+        background-color: var(--bg-app);
+    }
+
+    .wrapper {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 1rem;
+        background-color: var(--bg-sup-1441);
+    }
+}
+
+@media(min-width: 1921px) {
+    .wrapper {
+        max-width: 1920px;
+        margin: 0 auto;
+        background-color: var(--bg-sup-1921);
+    }
+}

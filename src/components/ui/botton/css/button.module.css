@@ -1,0 +1,27 @@
+.btnLine {
+    width:         10.5625rem;
+    height:        3.625rem;
+    border:        1px solid transparent;
+    border-radius: .5rem;
+    background:    var( --bg-btn-line );
+    font-family:   var( --font-Poppins );
+    font-size:     var( --font-17px );
+    font-weight:   var( --font-medium );
+    color:         var( --font-btn-line );
+    padding:       1.0625rem;
+    opacity:       1;
+}
+
+.btnOutLine {
+    width:         10.5625rem;
+    height:        3.625rem;
+    border:        1px solid var(--border-btn-outline);
+    border-radius: .5rem;
+    background:    var( --bg-btn-outline );
+    font-family:   var( --font-Poppins );
+    font-size:     var( --font-17px );
+    font-weight:   var( --font-medium );
+    color:         var( --font-btn-outline );
+    padding:       1.0625rem;
+    opacity:       1;
+}
